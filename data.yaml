@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['TotalPrice']
+
+roboflow:
+  workspace: receipt-kwpll
+  project: receipt-models-nsmwy
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/receipt-kwpll/receipt-models-nsmwy/dataset/2
